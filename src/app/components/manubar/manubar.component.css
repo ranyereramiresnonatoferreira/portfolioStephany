@@ -1,0 +1,33 @@
+nav{
+    padding: 1%;
+    background-color: transparent;
+}
+
+a{
+    border-radius: 20px;
+    color: white;
+    padding: 1%;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Alinha os itens horizontalmente no centro */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    padding: 0.5rem 1rem; /* Ajuste de espaçamento, se necessário */
+  }
+  
+  .navbar-brand {
+    margin: 0 1rem; /* Adiciona espaçamento entre os itens */
+  }
+  
+  /* Para garantir que a navegação em dispositivos menores também fique centralizada */
+  @media (max-width: 991px) {
+    .navbar-collapse {
+      justify-content: center; /* Centraliza os itens da barra de navegação colapsada */
+    }
+  }
