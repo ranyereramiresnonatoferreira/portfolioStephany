@@ -1,0 +1,26 @@
+h3{
+    color:white;
+    font-size: bold;
+}
+
+h6{
+    color:white
+}
+
+.container{
+    padding: 5%;
+}
+
+.centralizar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+hr{
+    border-color:#aaa;
+    box-sizing:border-box;
+    width:100%;  
+  }
